@@ -28,6 +28,17 @@
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
   </div>
+  <div id="app">
+    <nav>
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link>
+    </nav>
+
+    <!-- This is where your route components will be injected -->
+    <router-view></router-view>
+  </div>
+
+  
 </template>
 
 <script>

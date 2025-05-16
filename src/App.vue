@@ -6,8 +6,10 @@
             <li id="logo">Shaffaq.dev</li>
         </ul>
         <ul class="navigation">
-          <router-link to="/">Home</router-link> 
-          <router-link to="/about">About</router-link>
+          <!--<router-link to="/">Home</router-link> 
+          <router-link to="/about">About</router-link>-->
+            <a href="#projectsection"><li>Home</li></a>
+            <a href="#contactsection"><li>About</li></a>
             <a href="#projectsection"><li>Projects</li></a>
             <a href="#contactsection"><li>Contact</li></a>
         </ul>
@@ -19,9 +21,6 @@
         </ul>
     </header>
 
-
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
     </nav>
     <!-- This is where the route components will be injected -->
     <router-view></router-view>
@@ -39,14 +38,9 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  
 }
 
 html{

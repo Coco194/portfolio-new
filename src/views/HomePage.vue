@@ -184,7 +184,7 @@ a {
 
 #logo{
     font-weight: 500;
-    letter-spacing: -0.25px;
+    letter-spacing: 0px;
     min-width: 6rem;
     /*color: #e69bae;*/
     color: #597CFB;
@@ -264,7 +264,7 @@ a {
 .flexleft h2{
     font-size: 32px;
     font-weight: 600;
-    letter-spacing: -0.5px;
+    letter-spacing: 0px;
     line-height: 1.25; /*1.25 x Font size*/
     color: #0a0a0a;
     margin: 0.5rem auto 0 0;
@@ -274,7 +274,7 @@ a {
 .flexleft p{
     font-size: 16px;
     font-weight: 400;
-    letter-spacing: 0;
+    letter-spacing: 0px;
     line-height: 1.75; /*1.5 x Font size*/
     color: #4a4a4a;
     margin: 1rem auto 2rem 0;
@@ -308,7 +308,7 @@ a {
 .aboutflexright h1{
     font-size: 24px;
     font-weight: 600;
-    letter-spacing: -0.75px;
+    letter-spacing: 0px;
     line-height: 1; /*1.25 x Font size*/
     color: #0a0a0a;
     margin: 0 auto 0 0;
@@ -381,7 +381,7 @@ a {
 .projectparenttopic h1{
     font-size: 24px;
     font-weight: 600;
-    letter-spacing: -0.5px;
+    letter-spacing: 0px;
     color: #0a0a0a;
     line-height: 1;
     margin: 0;
@@ -477,7 +477,7 @@ a {
 .blogparent h1{
     font-size: 24px;
     font-weight: 600;
-    letter-spacing: -0.5px;
+    letter-spacing: 0px;
     color: #0a0a0a;
     margin: 0;
 }
@@ -576,7 +576,7 @@ a {
 .contactparent h1{
     font-size: 24px;
     font-weight: 600;
-    letter-spacing: -0.5px;
+    letter-spacing: 0px;
     color: #0a0a0a;
     margin: 0;
 }
@@ -631,7 +631,7 @@ footer h1{
 
 footer p{
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 600;
     color: #030303;
     letter-spacing: 0px;
     line-height: 1.75;

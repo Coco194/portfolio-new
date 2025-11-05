@@ -6,12 +6,10 @@
             <li id="logo">Shaffaq.dev</li>
         </ul>
         <ul class="navigation">
-          <!--<router-link to="/">Home</router-link> 
-          <router-link to="/about">About</router-link>-->
-            <a href="#projectsection"><li>Home</li></a>
-            <a href="#contactsection"><li>About</li></a>
-            <a href="#projectsection"><li>Projects</li></a>
-            <a href="#contactsection"><li>Contact</li></a>
+          <router-link to="/">Home</router-link>
+          <router-link to="/about">About</router-link>
+          <router-link to="/">Projects</router-link>
+          <router-link to="/">Contact</router-link>
         </ul>
         <ul class="navigation">
             <li id="resumedownload">Resume</li>

@@ -22,7 +22,6 @@
     </header>
 
     </nav>
-    <!-- This is where the route components will be injected -->
     <router-view></router-view>
 
 
